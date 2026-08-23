@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "package": "net.damku1214.mojira.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DiodeNeighborChunkCheckMixin",
+    "EditDetectorRailCollisionMixin",
+    "MinecartCollisionMomentumMixin",
+    "MinecartInitialYRotMixin",
+    "MinecartPassengerYRotMixin",
+    "PlayerDeathDataSaveMixin",
+    "RailPushBreakFixMixin",
+    "SpawnerIgnoreTagsMixin",
+    "SprintParticleFixMixin",
+    "UpdatePoweredRailNeighborsMixin",
+    "accessor.BlockAccessor",
+    "accessor.MinecartBehaviorAccessor"
+  ],
+  "client": [
+    "InventoryMouseButtonInteractMixin",
+    "TransformSpawnerEntityMixin",
+    "accessor.ScreenAccessor"
+  ]
+}

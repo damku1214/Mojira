@@ -1,12 +1,10 @@
 package net.damku1214.mojira.mixin;
 
 import net.damku1214.mojira.MojiraConfig;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.BaseRailBlock;
 import net.minecraft.world.level.block.piston.MovingPistonBlock;
-import net.minecraft.world.level.block.piston.PistonHeadBlock;
 import net.minecraft.world.level.block.state.properties.RailShape;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -25,7 +23,7 @@ import java.util.List;
  * </p>
  * <p>
  *     -- SOLUTION -- <br>
- *     Made it so the rail does not break if the new block underneath it is a moving piston. <br>
+ *     Made it so the rail does not break if the new block underneath it is a moving piston.
  * </p>
  */
 @Mixin(BaseRailBlock.class)

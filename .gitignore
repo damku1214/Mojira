@@ -38,7 +38,3 @@ run/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
-
-### AI ###
-ai/
-.claude/

@@ -23,7 +23,7 @@ import java.util.List;
 
 /**
  * <p>
- *     Fixes MC-779 (Field of Vision does not turn at all with a turning minecart).
+ *     Fixes MC-779 (Some entities are displayed outside of their spawner).
  * </p>
  * <p>
  *     -- CAUSE -- <br>

@@ -1,6 +1,7 @@
 package net.damku1214.mojira.mixin;
 
 import net.damku1214.mojira.MojiraConfig;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.BaseRailBlock;
@@ -14,6 +15,19 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.List;
 
+/**
+ * <p>
+ *     Fixes MC-2023 (Minecart rails break when moved with a block under certain conditions)
+ * </p>
+ * <p>
+ *     -- CAUSE -- <br>
+ *     {@link BaseRailBlock#neighborChanged} fires when the rail's supporting block is pushed before itself, causing the rail to break.
+ * </p>
+ * <p>
+ *     -- SOLUTION -- <br>
+ *     Made it so the rail does not break if the new block underneath it is a moving piston. <br>
+ * </p>
+ */
 @Mixin(BaseRailBlock.class)
 public abstract class RailPushBreakFixMixin {
     @Inject(method = "shouldBeRemoved", at = @At("HEAD"), cancellable = true)

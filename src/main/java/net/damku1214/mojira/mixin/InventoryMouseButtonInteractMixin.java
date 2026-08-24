@@ -28,7 +28,7 @@ import java.util.Set;
  * <p>
  *     -- CAUSE -- <br>
  *     1. {@link AbstractContainerScreen#mouseClicked} deliberately neglects cases where the left and right mouse buttons are clicked. <br>
- *     2. Behavior in {@code AbstractContainerScreen#checkHotbarMouseClicked} neglects the cases where a mouse key is mapped to dropping an item and toggling inventory.
+ *     2. Behavior in {@link AbstractContainerScreen#checkHotbarMouseClicked} neglects the cases where a mouse key is mapped to dropping an item and toggling inventory.
  * </p>
  * <p>
  *     -- SOLUTION -- <br>

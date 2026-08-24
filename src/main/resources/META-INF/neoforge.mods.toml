@@ -40,7 +40,7 @@ authors="damku1214"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-The ultimate bug-fixing mod.
+The ultimate bug-fixing mod for Minecraft.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.

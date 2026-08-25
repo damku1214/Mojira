@@ -23,5 +23,7 @@
   "mojira.config.mc_1691": "Fix MC-1691",
   "mojira.config.mc_1691.tooltip": "Enable fix for bug MC-1691 (Sprinting / falling on thin blocks uses the block below for the particles)",
   "mojira.config.mc_2023": "Fix MC-2023 (and MC-75716)",
-  "mojira.config.mc_2023.tooltip": "Enable fix for bug MC-2023 (Minecart rails break when moved with a block under certain conditions)\nAlso fixes MC-75716 (Pistons can create ghost blocks of rails)"
+  "mojira.config.mc_2023.tooltip": "Enable fix for bug MC-2023 (Minecart rails break when moved with a block under certain conditions)\nAlso fixes MC-75716 (Pistons can create ghost blocks of rails)",
+  "mojira.config.mc_2112": "Fix MC-2112",
+  "mojira.config.mc_2112.tooltip": "Enable fix for bug MC-2112 (Adjusted speed does not affect sprint-jumping/falling/floating with levitation/floating with NoGravity)"
 }

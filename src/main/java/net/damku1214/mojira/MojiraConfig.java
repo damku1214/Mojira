@@ -18,6 +18,7 @@ public class MojiraConfig {
     public final ModConfigSpec.ConfigValue<Boolean> MC_957;
     public final ModConfigSpec.ConfigValue<Boolean> MC_1691;
     public final ModConfigSpec.ConfigValue<Boolean> MC_2023;
+    public final ModConfigSpec.ConfigValue<Boolean> MC_2112;
 
     private MojiraConfig(ModConfigSpec.Builder builder) {
         MC_14 = builder
@@ -53,6 +54,9 @@ public class MojiraConfig {
         MC_2023 = builder
                 .translation("mojira.config.mc_2023")
                 .define("mc_2023", true);
+        MC_2112 = builder
+                .translation("mojira.config.mc_2112")
+                .define("mc_2112", true);
     }
 
     static {

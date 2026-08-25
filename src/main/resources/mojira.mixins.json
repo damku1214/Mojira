@@ -12,7 +12,7 @@
     "RailPushBreakFixMixin",
     "SpawnerIgnoreTagsMixin",
     "SprintParticleFixMixin",
-    "TravelTestMixin",
+    "ModifyFlyingSpeedMixin",
     "UpdatePoweredRailNeighborsMixin",
     "accessor.BlockAccessor",
     "accessor.MinecartBehaviorAccessor"

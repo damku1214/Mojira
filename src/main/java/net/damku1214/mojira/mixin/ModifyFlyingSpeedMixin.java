@@ -1,7 +1,6 @@
 package net.damku1214.mojira.mixin;
 
 import net.damku1214.mojira.MojiraConfig;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.player.Player;
@@ -25,7 +24,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
  * </p>
  */
 @Mixin(Player.class)
-public abstract class TravelTestMixin {
+public abstract class ModifyFlyingSpeedMixin {
     @Inject(method = "getFlyingSpeed", at = @At("TAIL"), cancellable = true)
     private void mojira$getFlyingSpeed(CallbackInfoReturnable<Float> cir) {
         LivingEntity self = (LivingEntity) (Object) this;

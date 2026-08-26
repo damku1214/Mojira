@@ -28,7 +28,7 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
  * </p>
  */
 @Mixin(ThrownEnderpearl.class)
-public abstract class ModifyEnderPearlLandPosMixin {
+public abstract class EnderPearlLandPosMixin {
     @ModifyVariable(method = "onHit", at = @At("STORE"), name = "teleportPos")
     private Vec3 mojira$teleportPos(Vec3 teleportPos) {
         ThrownEnderpearl self = (ThrownEnderpearl) (Object) this;

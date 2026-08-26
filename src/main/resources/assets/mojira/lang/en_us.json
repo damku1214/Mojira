@@ -29,5 +29,7 @@
   "mojira.config.mc_2164": "Fix MC-2164",
   "mojira.config.mc_2164.tooltip": "Enable fix for bug MC-2164 (Ender pearls can teleport entities inside solid blocks)",
   "mojira.config.mc_2440": "Fix MC-2440",
-  "mojira.config.mc_2440.tooltip": "Enable fix for bug MC-2440 (Beacons keep higher level effects when partially destroyed)"
+  "mojira.config.mc_2440.tooltip": "Enable fix for bug MC-2440 (Beacons keep higher level effects when partially destroyed)",
+  "mojira.config.mc_2714": "Fix MC-2714",
+  "mojira.config.mc_2714.tooltip": "Enable fix for bug MC-2714 (Minecarts pass through non-full-height blocks when snapping to rails)"
 }

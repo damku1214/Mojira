@@ -8,11 +8,12 @@
     "MinecartCollisionMomentumMixin",
     "MinecartInitialYRotMixin",
     "MinecartPassengerYRotMixin",
+    "ModifyEnderPearlLandPosMixin",
+    "ModifyFlyingSpeedMixin",
     "PlayerDeathDataSaveMixin",
     "RailPushBreakFixMixin",
     "SpawnerIgnoreTagsMixin",
     "SprintParticleFixMixin",
-    "ModifyFlyingSpeedMixin",
     "UpdatePoweredRailNeighborsMixin",
     "accessor.BlockAccessor",
     "accessor.MinecartBehaviorAccessor"
